@@ -1,0 +1,88 @@
+.img {
+    background-image: url('BB2020-1.jpg');
+    background-size: cover; /* This scales the image to cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: flex;
+  }
+   
+  /* Styling for the main content */
+  #main-doc {
+    margin-left: 220px;
+    padding: 20px;
+  }
+  
+  .main-section {
+    margin: 20px 0;
+  }
+  
+ 
+
+.main-section header {
+    background-color: rgba(0, 0, 255, 0.5); /* Transparent blue background */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px; /* Adds rounded corners to create a tile effect */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+}
+
+.main-section p {
+    padding: 10px; /* Add some padding to the paragraph */
+}
+
+
+  
+  /* Additional styling can be added as needed */
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    #navbar {
+      width: 100%;
+      position: static;
+    }
+    #main-doc {
+      margin-left: 0;
+    }
+  }
+
+
+  #navbar {
+
+    background-image: url('OIP.jpeg');
+    background-size: cover; /* This scales the image to cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    
+
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: #21c66b;
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+    overflow-y: scroll;
+    background: transparent; /* Set the background of the navbar to transparent */
+    border-radius: 5px; /* Adds rounded corners for tile effect */
+    box-shadow: 5px 5px 10px rgba(13, 205, 13, 0.3); /* Semi-green transparent box shadow effect */
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-link {
+    display: block;
+    color: #1f4493;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 8px;
+    transition: background-color .8s; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 128, 0, 0.2); /* Semi-green background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+  
